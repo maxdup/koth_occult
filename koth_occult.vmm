@@ -1,6 +1,6 @@
 Info
 {
-	"NextInternalID" "7"
+	"NextInternalID" "9"
 }
 Maps
 {
@@ -40,5 +40,17 @@ Maps
 		"Name" "bluside"
 		"File" "bluside.vmf"
 		"InternalID" "6"
+	}
+	VMF
+	{
+		"Name" "asymblu"
+		"File" "asymblu.vmf"
+		"InternalID" "7"
+	}
+	VMF
+	{
+		"Name" "asymred"
+		"File" "asymred.vmf"
+		"InternalID" "8"
 	}
 }
