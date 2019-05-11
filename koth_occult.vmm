@@ -19,12 +19,6 @@ Maps
 	}
 	VMF
 	{
-		"Name" "skybox"
-		"File" "skybox.vmf"
-		"InternalID" "3"
-	}
-	VMF
-	{
 		"Name" "displacements"
 		"File" "displacements.vmf"
 		"InternalID" "4"
