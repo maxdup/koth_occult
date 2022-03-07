@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\props_forest/waterfall001"
+	"$surfaceprop" "nodecal"
+	"$additive" 1
+	
+	"Proxies"
+	{	
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.35
+			"texturescrollangle" 100
+		}
+	}
+}

@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "cavern/dirtground005d"
+	"$basetexture2" "cavern/sand01"
+	
+	//"$bumpmap" "Nature/dirtground005_height-ssbump"
+	//"$bumpmap2" "cavern/sand01_normal"
+	
+	"$blendmodulatetexture" "cavern/sand01_modulate"
+	
+	"%keywords" "tf"
+	"$surfaceprop" "rock"
+	"$ssbump" "1"
+	
+	//"$detail" "overlays/detail004"
+	//"$detailscale" "1.2"
+	//"$detailblendmode" "0"
+	//"$detailblendfactor" "1"
+}

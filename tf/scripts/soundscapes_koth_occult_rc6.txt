@@ -1,0 +1,127 @@
+"occult.cave"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+}
+
+
+"occult.buildup_low"
+{
+	"playsoundscape"
+	{ 
+		"name"	"occult.cavedrip"
+
+		"volume"	"0.8"
+	}
+
+	"playrandom"
+	{
+		"time"	"0.4,1"
+		"volume"	"0.3,0.6"
+		"pitch"	"100"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"occult/chime1.wav"
+			"wave"	"occult/chime2.wav"
+			"wave"	"occult/chime3.wav"
+			"wave"	"occult/chime5.wav"
+			"wave"	"occult/chime4.wav"
+		}
+	}
+}
+
+"occult.cavedrip"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"4"
+		"pitch"		"100"
+		"wave"		"ambient/water/drip_loop1.wav"
+	}
+}
+
+"occult.buildup_high"
+{
+	"playsoundscape"
+	{ 
+		"name"	"occult.cavedrip"
+
+		"volume"	"0.4"
+	}
+
+	"playrandom"
+	{
+		"time"	"0.1,0.3"
+		"volume"	"0.3,0.9"
+		"pitch"	"100"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"occult/chime0.wav"
+			"wave"	"occult/chime1.wav"
+			"wave"	"occult/chime2.wav"
+			"wave"	"occult/chime3.wav"
+			"wave"	"occult/chime5.wav"
+			"wave"	"occult/chime4.wav"
+			"wave"	"occult/chime5.wav"
+			"wave"	"occult/chime6.wav"
+			"wave"	"occult/chime7.wav"
+			"wave"	"occult/chime8.wav"
+			"wave"	"occult/chime9.wav"
+			"wave"	"occult/chime10.wav"
+			"wave"	"occult/chime11.wav"
+		}
+	}
+}
+
+"occult.buildup_frantic"
+{
+	"playsoundscape"
+	{ 
+		"name"	"occult.cavedrip"
+
+		"volume"	"1"
+	}
+
+	"playrandom"
+	{
+		"time"	"0.05,0.2"
+		"volume"	"0.35,1"
+		"pitch"	"200"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"occult/chime0.wav"
+			"wave"	"occult/chime1.wav"
+			"wave"	"occult/chime2.wav"
+			"wave"	"occult/chime3.wav"
+			"wave"	"occult/chime5.wav"
+			"wave"	"occult/chime4.wav"
+			"wave"	"occult/chime5.wav"
+			"wave"	"occult/chime6.wav"
+			"wave"	"occult/chime7.wav"
+			"wave"	"occult/chime8.wav"
+			"wave"	"occult/chime9.wav"
+			"wave"	"occult/chime10.wav"
+			"wave"	"occult/chime11.wav"
+		}
+	}
+}

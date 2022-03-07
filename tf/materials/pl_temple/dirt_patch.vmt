@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "pl_temple/dirt_patch_diffuse"
+	"%keywords" "tf"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+}

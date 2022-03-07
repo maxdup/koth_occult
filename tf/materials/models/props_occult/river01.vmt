@@ -1,0 +1,40 @@
+"unlittwotexture"
+{
+	"$baseTexture" "models\props_occult/river_waves"
+	"$texture2" "models\props_occult/river_highlight"
+	"$model" "1"
+	"$surfaceprop" "nodecal"
+	"$additive" 1
+
+	
+	"$texoffset"	"[0 0]"
+	"$texscale" "0.13"
+	
+	"Proxies"
+	{	
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.35
+			"texturescrollangle" 100
+		}
+		
+		// Translate wave
+		"Sine"
+		{
+		    "sinemin" -0.10
+            "sinemax" 0.065
+            "sineperiod" 5
+			"resultVar"	"$texoffset[1]"
+		}
+		
+		
+		"TextureTransform"
+		{
+			"scaleVar" "$texscale"
+			"translateVar" "$texoffset"
+			"resultVar" "$texture2transform"
+		}
+		
+	}
+}

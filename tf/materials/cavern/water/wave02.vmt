@@ -1,0 +1,47 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "cavern/water/wave01"
+	"$translucent" 1
+	"$additive" 1
+	"$decal" 1
+
+	
+	"$translate" "[0.0 0.0]"
+
+	Proxies
+	{
+		// alpha
+		"Sine"
+		{
+			"sineperiod" 6 
+			"timeoffset" "0"
+			"sinemin" "-0.5"
+			"sinemax" "1.5"
+			"resultVar" "$alpha"
+		}
+		// translate Y
+		"Sine"
+		{
+			"sineperiod" 6 
+			"timeoffset" "0"
+			"sinemin" "0.20"
+			"sinemax" "0"
+			"resultVar" "$translate[1]"
+		}
+		// translate X
+		"Sine"
+		{
+			"sineperiod" 8
+			"timeoffset" "2"
+			"sinemin" "-0.15"
+			"sinemax" "0.15"
+			"resultVar" "$translate[0]"
+		}
+		
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/props_cavern/tripod_light"
+	$selfillum 1
+}

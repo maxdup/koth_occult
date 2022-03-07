@@ -1,0 +1,5 @@
+particles_manifest
+{
+	file	"particles/occult_fx.pcf"
+	file	"particles/occult_water.pcf"
+}

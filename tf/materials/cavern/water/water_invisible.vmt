@@ -1,0 +1,10 @@
+"Water"
+{	
+	"$abovewater" 1
+	"$bottommaterial" "water/water_2fort_beneath.vmt"
+	"%compilewater" 1
+	
+	"%tooltexture" "dev/tfwater_normal"
+	"%keywords" "tf"
+	"$surfaceprop" "water"
+}

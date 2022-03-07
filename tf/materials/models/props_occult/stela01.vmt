@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_occult\stela01"
+	"$surfaceprop" "rock"
+	"%keywords" "tf"
+	//"$detail" "overlays/detail004"
+	//"$detailscale" "1"
+	//"$detailblendmode" "0"
+	//"$detailblendfactor" "1"
+}

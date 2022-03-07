@@ -1,0 +1,32 @@
+"Refract"
+{
+	"$model" "1"
+	"$bluramount" "1"
+	"$surfaceprop" "glass"
+	"$refractamount" "0.05"
+	"$normalmap" "water/tfwater001_normal"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[1 1 1]"
+	"$REFRACTTINT" "[.82 .9 .95]"
+	
+	"$translate" "[0.0 0.0]"
+	
+
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" "10"
+		}
+		
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$bumptransform"
+			"texturescrollrate" 	"1"
+			"texturescrollangle" 	"270"
+		}
+	}
+}

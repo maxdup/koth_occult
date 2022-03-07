@@ -1,0 +1,22 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "cavern\water\caustic"
+	"$texture2" "cavern\water\caustic_mask02"
+	
+	//%tooltexture TODO
+	
+	"$decal" 1
+	
+	"$surfaceprop" "no_decal"
+	"$additive" 1
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 22.00
+		}
+	}
+}

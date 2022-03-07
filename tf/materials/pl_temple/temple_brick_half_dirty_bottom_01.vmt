@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "pl_temple/temple_brick_half_dirty_bottom_diffuse"
+	"$bumpmap" "pl_temple/temple_brick_half_dirty_bottom_normal"
+	"$color" "[1.15 0.9 0.9]"
+//	"$ssbump"	"1"
+	"%keywords" "tf"
+	"$surfaceprop" "brick"
+	"$detail" "overlays/detail004"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.04 .04 .04]"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

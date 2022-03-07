@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7293"
-	"mapversion" "10"
+	"editorbuild" "9109"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -113,7 +113,7 @@ entity
 	"id" "76"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "koth_occult/dynamic"
+	"file" "koth_occult/dynamic_old"
 	"fixup_style" "2"
 	"origin" "0 0 0"
 	editor

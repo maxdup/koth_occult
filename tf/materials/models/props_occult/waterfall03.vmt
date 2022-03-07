@@ -1,0 +1,19 @@
+"unlittwotexture"
+{
+	"$baseTexture" "models\props_forest/waterfall001"
+	"$texture2" "models\props_occult/waterfall003"
+	"$model" "1"
+	"$surfaceprop" "nodecal"
+	"$additive" 1
+
+	
+	"Proxies"
+	{	
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.35
+			"texturescrollangle" 100
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_cavern/stalactite_rock02"
+	"$surfaceprop"	"rock"
+	
+	"$color2" "{200 200 200}"
+	"$blendTintByBaseAlpha"	"1"
+	//"$blendTintColorOverBase"	"0.2"
+}

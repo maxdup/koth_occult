@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7417"
-	"mapversion" "5565"
+	"editorbuild" "9109"
+	"mapversion" "5567"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -4104,7 +4104,7 @@ world
 		side
 		{
 			"id" "81571"
-			"plane" "(256 -640 1056) (-384 -640 1056) (-384 6.10352e-005 1056)"
+			"plane" "(256 -640 1056) (-384 -640 1056) (-384 6.10352e-05 1056)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -4115,7 +4115,7 @@ world
 		side
 		{
 			"id" "81570"
-			"plane" "(-384 -640 1056) (-384 -640 1024) (-384 6.10352e-005 1024)"
+			"plane" "(-384 -640 1056) (-384 -640 1024) (-384 6.10352e-05 1024)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -48] 0.25"
@@ -9239,7 +9239,7 @@ world
 		side
 		{
 			"id" "154726"
-			"plane" "(-1000 -2618 3.8147e-006) (-1000 -2624 3.8147e-006) (-780 -2624 3.8147e-006)"
+			"plane" "(-1000 -2618 3.8147e-06) (-1000 -2624 3.8147e-06) (-780 -2624 3.8147e-06)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -9250,7 +9250,7 @@ world
 		side
 		{
 			"id" "154725"
-			"plane" "(-1000 -2624 3.8147e-006) (-1000 -2618 3.8147e-006) (-1000 -2618 112)"
+			"plane" "(-1000 -2624 3.8147e-06) (-1000 -2618 3.8147e-06) (-1000 -2618 112)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 5] 0.1"
 			"vaxis" "[0 0 -1 -43] 0.1"
@@ -9261,7 +9261,7 @@ world
 		side
 		{
 			"id" "154724"
-			"plane" "(-780 -2618 3.8147e-006) (-780 -2624 3.8147e-006) (-780 -2624 112)"
+			"plane" "(-780 -2618 3.8147e-06) (-780 -2624 3.8147e-06) (-780 -2624 112)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 5] 0.1"
 			"vaxis" "[0 0 -1 -43] 0.1"
@@ -9272,7 +9272,7 @@ world
 		side
 		{
 			"id" "154723"
-			"plane" "(-1000 -2618 3.8147e-006) (-780 -2618 3.8147e-006) (-780 -2618 112)"
+			"plane" "(-1000 -2618 3.8147e-06) (-780 -2618 3.8147e-06) (-780 -2618 112)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -9283,7 +9283,7 @@ world
 		side
 		{
 			"id" "154722"
-			"plane" "(-780 -2624 3.8147e-006) (-1000 -2624 3.8147e-006) (-1000 -2624 112)"
+			"plane" "(-780 -2624 3.8147e-06) (-1000 -2624 3.8147e-06) (-1000 -2624 112)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -10977,7 +10977,7 @@ world
 		{
 			"id" "220030"
 			"plane" "(-1416 -3196 184) (-1344 -3196 184) (-1344 -3268 184)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10988,7 +10988,7 @@ world
 		{
 			"id" "220029"
 			"plane" "(-1416 -3268 108.547) (-1344 -3268 108.547) (-1344 -3196 108.547)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -10999,7 +10999,7 @@ world
 		{
 			"id" "220028"
 			"plane" "(-1416 -3196 184) (-1416 -3268 184) (-1416 -3268 108.547)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -11010,7 +11010,7 @@ world
 		{
 			"id" "220027"
 			"plane" "(-1344 -3196 108.547) (-1344 -3268 108.547) (-1344 -3268 184)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -11021,7 +11021,7 @@ world
 		{
 			"id" "220026"
 			"plane" "(-1344 -3196 184) (-1416 -3196 184) (-1416 -3196 108.547)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -11032,7 +11032,7 @@ world
 		{
 			"id" "220025"
 			"plane" "(-1344 -3268 108.547) (-1416 -3268 108.547) (-1416 -3268 184)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -13635,7 +13635,7 @@ world
 		{
 			"id" "231510"
 			"plane" "(32 -1216 -48) (32 -1472 -48) (-64 -1472 -72)"
-			"material" "TOOLS/TOOLSBLOCKBULLETSNOVIS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "90"
@@ -13646,7 +13646,7 @@ world
 		{
 			"id" "231509"
 			"plane" "(-64 -1472 -72) (32 -1472 -72) (32 -1216 -72)"
-			"material" "TOOLS/TOOLSBLOCKBULLETSNOVIS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -13657,7 +13657,7 @@ world
 		{
 			"id" "231508"
 			"plane" "(32 -1216 -48) (32 -1216 -72) (32 -1472 -72)"
-			"material" "TOOLS/TOOLSBLOCKBULLETSNOVIS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
@@ -13668,7 +13668,7 @@ world
 		{
 			"id" "231507"
 			"plane" "(-64 -1216 -72) (32 -1216 -72) (32 -1216 -48)"
-			"material" "TOOLS/TOOLSBLOCKBULLETSNOVIS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
@@ -13679,7 +13679,7 @@ world
 		{
 			"id" "231506"
 			"plane" "(32 -1472 -48) (32 -1472 -72) (-64 -1472 -72)"
-			"material" "TOOLS/TOOLSBLOCKBULLETSNOVIS"
+			"material" "TOOLS/TOOLSBLOCKBULLETS2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
 			"rotation" "0"
@@ -14133,7 +14133,7 @@ world
 		side
 		{
 			"id" "237586"
-			"plane" "(608 5.3153e-005 320) (568 4.96561e-005 320) (504 -288 320)"
+			"plane" "(608 5.3153e-05 320) (568 4.96561e-05 320) (504 -288 320)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0.00195313] 0.25"
@@ -14144,7 +14144,7 @@ world
 		side
 		{
 			"id" "237585"
-			"plane" "(608 -288 384) (464 -288 384) (528 4.61592e-005 384)"
+			"plane" "(608 -288 384) (464 -288 384) (528 4.61592e-05 384)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0.00195313] 0.25"
@@ -14155,7 +14155,7 @@ world
 		side
 		{
 			"id" "237584"
-			"plane" "(568 4.96561e-005 320) (528 4.61592e-005 384) (464 -288 384)"
+			"plane" "(568 4.96561e-05 320) (528 4.61592e-05 384) (464 -288 384)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[0 1 0 -0.00195313] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14166,7 +14166,7 @@ world
 		side
 		{
 			"id" "237583"
-			"plane" "(608 -288 320) (608 -288 384) (608 5.3153e-005 384)"
+			"plane" "(608 -288 320) (608 -288 384) (608 5.3153e-05 384)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[0 1 0 -0.00195313] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14188,7 +14188,7 @@ world
 		side
 		{
 			"id" "237581"
-			"plane" "(608 5.3153e-005 320) (608 5.3153e-005 384) (528 4.61592e-005 384)"
+			"plane" "(608 5.3153e-05 320) (608 5.3153e-05 384) (528 4.61592e-05 384)"
 			"material" "TOOLS/TOOLSBLOCKLIGHT"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -41108,7 +41108,7 @@ entity
 	"model" "models/props_occult/river01.mdl"
 	"skin" "0"
 	"solid" "0"
-	"origin" "-256 -2048 -3.05176e-005"
+	"origin" "-256 -2048 -3.05176e-05"
 	editor
 	{
 		"color" "255 255 0"

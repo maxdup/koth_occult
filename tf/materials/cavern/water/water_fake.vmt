@@ -1,0 +1,28 @@
+"LightmappedGeneric"
+{
+	"%tooltexture" "dev/tfwater_normal"
+	"%keywords" "tf"
+
+	"$basetexture" "water/water_hydro_base"
+	"$bumpmap" "water/tfwater001_normal"
+	"$normalmap" "water/tfwater001_normal"
+	"$translucent" "1"
+	"$surfaceprop" "water"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+
+
+	"$normalmapalphaenvmapmask" "1"
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}
+

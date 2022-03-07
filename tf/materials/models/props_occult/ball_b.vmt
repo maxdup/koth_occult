@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_occult/ball"
+	"$color2" "[0.1 0.6 2.7]"
+	"$blendTintByBaseAlpha" "1"
+	"$bumpmap"	"models/props_occult/ball_norm"
+	
+	"$envmap" "cubemaps/cubemap_gold001"
+	"$envmaptint" "[0.7 0.7 0.7]"
+	"$normalmapalphaenvmapmask" 1
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0 0.5 1]"
+	
+	$rimlight               1
+	$rimlightexponent       1
+	$rimlightboost          10
+}

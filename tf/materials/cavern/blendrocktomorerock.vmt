@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "cavern/rockwall005"
+	"$basetexture2" "cavern/rock01"
+	
+	"$blendmodulatetexture" "cavern/rock01_modulate"
+	
+	//"$bumpmap" "Nature/rockwall004_bump-ssbump"
+	
+	"%keywords" "tf"
+	"$reflectivity" "[.5 .5 .5]"
+	"$surfaceprop" "rock"
+	"$ssbump" "1"
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}
